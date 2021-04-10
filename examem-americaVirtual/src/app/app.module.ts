@@ -8,9 +8,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { ServicioComponent } from './components/servicio/servicio.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
+import { DiasComponent } from './components/dias/dias.component';
 
 @NgModule({
-  declarations: [AppComponent, ContainerComponent, HeaderComponent, ServicioComponent, FooterComponent, LoginComponent],
+  declarations: [AppComponent, ContainerComponent, HeaderComponent, ServicioComponent, FooterComponent, LoginComponent, DiasComponent],
   imports: [BrowserModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
