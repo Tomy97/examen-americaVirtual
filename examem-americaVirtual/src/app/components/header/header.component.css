@@ -2,9 +2,14 @@
   background: #ff6859;
 }
 
-.btn-virtual {
+.btn-virtual-navbar {
   border: 1px solid white;
   color: white;
+}
+
+.btn-virtual {
+  color: #ffff;
+  background: #ff6859;
 }
 
 .btn-virtual:hover {

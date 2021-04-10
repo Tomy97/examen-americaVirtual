@@ -1,3 +1,9 @@
 .color-blue {
-  color: #6c75e2;
+  color: #0012FF;
+}
+
+.b-left {
+  margin-left: 0.2rem ;
+  margin-bottom: 1rem;
+  border-left: 1px solid rgba(0,0,0,.1);
 }

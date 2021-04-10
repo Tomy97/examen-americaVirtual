@@ -3,11 +3,11 @@
 }
 
 .color-blue {
-  color: #6c75e2;
+  color: #252EB3;
 }
 
 .b-blue {
-  border-top: 1px solid #6c75e2;
+  border-top: 3px solid #0012FF;
 }
 
 .btn-virtual {
@@ -18,4 +18,8 @@
 .font {
   font-weight: 700;
   font-family: sans-serif;
+}
+
+.f-bold {
+  font-weight: bold;
 }
