@@ -1,0 +1,14 @@
+.bg-americaVirtual {
+  background: #ff6859;
+}
+
+.btn-virtual {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-virtual:hover {
+  border: 1px solid white;
+  background: white;
+  color: #ff6859;
+}
