@@ -3,11 +3,11 @@
 }
 
 .color-blue {
-  color: #252EB3;
+  color: #252eb3;
 }
 
 .b-blue {
-  border-top: 3px solid #0012FF;
+  border-top: 3px solid #0012ff;
 }
 
 .btn-virtual {
@@ -22,4 +22,8 @@
 
 .f-bold {
   font-weight: bold;
+}
+
+i {
+  color: rgb(170, 170, 170);
 }

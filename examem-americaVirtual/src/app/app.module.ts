@@ -7,10 +7,24 @@ import { ServicioComponent } from './components/servicio/servicio.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { DiasComponent } from './components/dias/dias.component';
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AppComponent, ContainerComponent, HeaderComponent, ServicioComponent, FooterComponent, DiasComponent],
-  imports: [BrowserModule, NgbDropdownModule],
+  declarations: [
+    AppComponent,
+    ContainerComponent,
+    HeaderComponent,
+    ServicioComponent,
+    FooterComponent,
+    DiasComponent,
+  ],
+  imports: [
+    BrowserModule,
+    NgbDropdownModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

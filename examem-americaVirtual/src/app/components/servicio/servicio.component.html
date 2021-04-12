@@ -13,14 +13,24 @@
             <div class="form-group">
               <div class="mb-3">
                 <label for="pais" class="form-label"> Pa&iacute;s </label>
-                <select class="form-control" id="paisSelect">
+                <select
+                  class="form-control"
+                  id="paisSelect"
+                  (change)="getCiudades($event)"
+                >
                   <option value="">Selecciona un pais</option>
+                  <option *ngFor="let pais of paises" [value]="pais.id">
+                    {{ pais.nombre }}
+                  </option>
                 </select>
               </div>
               <div class="mb-3">
                 <label for="pais" class="form-label"> Ciudad </label>
                 <select class="form-control" id="ciudadSelect">
                   <option value="">Selecciona una ciudad</option>
+                  <option *ngFor="let ciudad of ciudades" [value]="ciudad.id">
+                    {{ ciudad.nombre }}
+                  </option>
                 </select>
               </div>
             </div>
@@ -36,7 +46,9 @@
     <div class="col-md-6">
       <div class="card">
         <div class="card-body">
-          <h4 class="card-title text-center color-blue f-bold">Reporte del Tiempo</h4>
+          <h4 class="card-title text-center color-blue f-bold">
+            Reporte del Tiempo
+          </h4>
           <hr class="b-blue" />
           <div class="row">
             <div class="col-md-12">
@@ -51,21 +63,15 @@
               <h1>22 ° C</h1>
               <p>71.6 °F</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
               <div class="text-right">
                 <div>
-                  <img src="../../../assets/img/Soleado.png" alt="soleado" width="350">
+                  <i class="fas fa-sun fa-10x"></i>
                 </div>
                 <div>
-                  <h6>
-                    Prob. de precipitaciones: 0%
-                  </h6>
-                  <h6>
-                    Humerdad: 54%
-                  </h6>
-                  <h6>
-                    Viento: a 10 km/h.
-                  </h6>
+                  <h6>Prob. de precipitaciones: 0%</h6>
+                  <h6>Humerdad: 54%</h6>
+                  <h6>Viento: a 10 km/h.</h6>
                 </div>
               </div>
             </div>
